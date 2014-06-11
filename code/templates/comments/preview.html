@@ -1,0 +1,48 @@
+{% extends "comments/base.html" %}
+{% load staticfiles %}
+{% block title %}预览您的评论{% endblock %}
+{% block extra_head %}
+<link href="{% static "css/my_blog.css" %}" rel="stylesheet">
+{% endblock %}
+{% block content %}
+<div class="container">
+  {% load comments %}
+  <div id="my_preview">  
+	  <form action="{% comment_form_target %}" method="post">{% csrf_token %}
+	    {% if next %}<div><input type="hidden" name="next" value="{{ next }}" /></div>{% endif %}
+	    {% if form.errors %}
+	      <h1><small>请按照提示修改您提交的内容：</small></h1>
+	    {% else %}
+	      <h1><small>预览您的评论：</small></h1>
+	      <blockquote>{{ comment|linebreaks }}</blockquote>
+	      <p>
+	      和 <input type="submit" name="submit" class="submit-post" value="提交评论" id="submit" /> 或者修改评论:
+	      </p>
+	    {% endif %}
+	    
+	    {% for field in form %}
+	      {% if field.is_hidden %}
+	        <div>{{ field }}</div>
+	      {% else %}
+	        {% if field.errors %}{{ field.errors }}{% endif %}
+	        <p
+	          {% if field.errors %} class="error"{% endif %}
+	          {% ifequal field.name "honeypot" %} style="display:none;"{% endifequal %}>
+	          {{ field.label_tag }} {{ field }}
+	        </p>
+	      {% endif %}
+	    {% endfor %}
+	
+	    <input id="user_input_code" type="text" name="code" placeholder="请输入右侧的验证码"/>
+	    <input type="text" readonly="readonly" id="checkCode" class="code" style="width: 60px;" />
+	    <p id="valid_failed"></p>
+	    <p class="submit">
+	    <input id="submit_comment" type="submit" disabled="true" name="submit" class="submit-post" value="提交评论" />
+	    </p>
+	  </form>
+	</div>
+</div>
+{% endblock %}
+{% block extra_tail %}
+<script src="{% static "js/my_blog.js" %}"></script>
+{% endblock %}

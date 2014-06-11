@@ -1,0 +1,113 @@
+{% extends "base.html" %}
+{% block title %}CJYFFF的简单BLOG:{{ post.title }}{% endblock %}
+
+{% block body %}
+{% load comments %}
+<div class="container">
+  <div id="content" class="row-fluid">
+    <div class="span9 main">
+			<h3 class="main_title">{{ post.title }}</h3>
+			<h2><small>{{ post.author }}</small></h2>
+			<h3><small>{{ post.timestamp|date:"Y年m月j日 f" }}</small></h3>
+			    
+			{# 下面的for循环的作用是接收包含图片、段落、代码等QuerySet对象的列表，根据discern字段 #}
+			{# 判断出类别，然后按照类别的不同而选择不同的方式表示出来 #}
+			<div class="post_content">
+				{% for var in context_list %}        
+				  {% ifequal var.discern 'paragraph' %}
+
+				  {% endifequal %}
+				        
+				  {% ifequal var.discern 'code' %}
+				    <p><pre class="prettyprint">{{ var.content }}</pre></p>
+				  {% endifequal %}
+				        
+				  {% ifequal var.discern 'photo' %}
+				    <img src="{{ var.url }}"/>
+				    <br>
+				    <br>
+				  {% endifequal %}
+				{% endfor %}
+			</div>
+			<br>
+			<div class="alert alert-info">
+			  <p>这篇文章是cjyfff的原创内容，欢迎各位转载，但请保留出处: 
+			  http://cjyfff.sinaapp.com/blog/{{ post.id }}，感谢！</p>
+			</div>
+			<br></br>
+			<p>下一篇文章：
+			{% if next_post %}
+			  <a href="{% url 'detail_blog' next_post.id %}">{{ next_post.title }}</a>
+			{% else %}
+			  没有了
+			{% endif %}
+			</p>
+			<p>上一篇文章：
+			{% if pre_post %}
+			  <a href="{% url 'detail_blog' pre_post.id %}">{{ pre_post.title }}</a>
+			{% else %}
+			  没有了
+			{% endif %}
+
+          {% get_comment_count for post as comment_count %}
+			<h4 class="page-header"><small>这篇文章有 {{ comment_count }} 条评论：</small></h4>
+
+			{# django自带的comment模块会自动获取当前post的id，因为post已经是BlogPost的实例 #}
+
+			{% get_comment_list for post as comment_list %}
+			{% for comment in comment_list %}
+			  <div class="alert alert-success">
+				  <p><small>{{ comment.name }}&nbsp;&nbsp;发表于&nbsp;&nbsp;{{ comment.submit_date|date:"Y年m月j日 f" }}&nbsp;:</small></p>
+				  <p>{{ comment.comment }}</p>
+			  </div>
+			{% endfor %}
+
+			<h4 class="page-header"><small>这篇文章有 {{ comment_count }} 条评论：</small></h4>
+
+
+			<div class="row-fluid">
+			  <div class="span5">
+			    <div class="page-header">
+			      <h4>发表评论:</h4>
+			      <p>可用Ctrl+Enter快速提交</p>
+			    </div>
+
+			    <table>
+                    <form id="comment_from" action="{% comment_form_target %}" method="post">
+				      {% csrf_token %}
+				      {{form.object_pk}}
+				      {{form.content_type}}
+				      {{form.timestamp}}
+				      {{form.security_hash}}
+				
+				      <input type="text" name="name" placeholder="请输入您的昵称" id="id_name">
+				      <input type="text" name="email" placeholder="请输入您的邮箱（不会被公开）" id="id_email">
+				      <textarea id="id_comment" placeholder="请输入您的评论" rows="10" cols="30" name="comment"></textarea>
+				      <input id="user_input_code" type="text" name="code" placeholder="请输入下方的验证码"/>
+				      <input type="text" readonly="readonly" id="checkCode" class="code" style="width: 60px;" />
+				      <p id="valid_failed"></p>
+				      <tr>
+				        <td colspan="2">
+				        <input id="submit_comment" type="submit" disabled="true" name="submit" value="提交评论">
+				        </td>
+				      </tr>
+				    </form>
+			    </table>
+			  </div>
+			</div>
+			<br>
+	  </div>
+	  <div class="span3 sidebar">
+      <div class="alert alert-info">      
+	      <h3 class="page-header">关于博主</h3>
+	      <p><b>一个在地球online苦苦练级的程序猿，武器是python，js和c。
+	      来自广东某工业大学。求各位大牛带带小的刷这个副本。</b></p>
+	      <br>      
+	      <p><b>联系我：</b></p>
+	      <p><b>邮箱: </b>cjyfff#163.com</p>
+	      <p><b>QQ: </b>631127458</p>
+      </div>
+    </div>
+	</div>
+</div>
+{% endblock %}

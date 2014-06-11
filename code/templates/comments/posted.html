@@ -1,0 +1,13 @@
+{% extends "comments/base.html" %}
+{% load staticfiles %}
+{% block title %}谢谢评论！{% endblock %}
+
+{% block content %}
+<div class="container">
+  <h1><small>谢谢您的评论！</small></h1>
+  <button type="button" id="back_to_post">返回</button>
+</div>
+{% endblock %}
+{% block extra_tail %}
+<script src="{% static "js/my_blog.js" %}"></script>
+{% endblock %}

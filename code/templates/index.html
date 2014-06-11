@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% block title %}CJYFFF的简单BLOG{% endblock %}
+
+{% block body %}
+<div class="container">
+  <div id="content" class="row-fluid">
+    <div class="span9 main">
+
+			{% for post in posts_of_page %}
+			  {# 下面语句是要重定向到detail_blog这个url，并且把post.id传给这个url #}
+			  <h2 ><a href="{% url 'detail_blog' post.id %}"><small>{{ post.title }}</small></a></h2>
+			  <p>作者：{{ post.author }}&nbsp;&nbsp;发表时间：{{ post.timestamp|date:"Y年m月j日 f" }}</p>
+			  <div class="post_content">
+				  {% if post.summary %}
+				    <p class="text-indent">文章简介：&nbsp;{{ post.summary|truncatechars:100 }}</p>
+				  {% endif %}
+			  </div>
+			  <p class="text-indent"><a  href="{% url 'detail_blog' post.id %}">阅览全文</a></p>
+			  <p class="page-header"></p>
+			{% endfor %}
+			
+			<div class="posts_of_page">
+        <span class="step-link">
+          {% if posts_of_page.has_previous %}
+            <a href="?page={{ posts_of_page.previous_page_number }}">上一页</a>
+          {% endif %}
+          <span class="current">
+            第{{ posts_of_page.number }}页
+            共计{{ posts_of_page.paginator.num_pages }}页
+          </span>
+          {% if posts_of_page.has_next %}
+            <a href="?page={{ posts_of_page.next_page_number }}">下一页</a>
+          {% endif %}
+        </span>
+      </div>
+		</div>
+		<div class="span3 sidebar">
+      <div class="alert alert-info">      
+	      <!--h3 class="page-header">关于博主</h3>
+	      <p><b>一个在地球online苦苦练级的程序猿，武器是python，js和c。
+	      来自广东某工业大学。求各位大牛带带小的刷这个副本。</b></p>
+	      <br>      
+	      <p><b>联系我：</b></p>
+	      <p><b>邮箱: </b>cjyfff#163.com</p>
+	      <p><b>QQ: </b>631127458</p-->
+      </div>
+		</div>
+	</div>
+</div>
+{% endblock %}
