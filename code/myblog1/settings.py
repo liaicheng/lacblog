@@ -22,7 +22,7 @@ SECRET_KEY = 'q400ul$l1@)3&ch&9@+366o^t)l*%&l5+b6r#u5prkhdr5#k+^'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-TEMPLATE_DEBUG = True
+TEMPLATE_DEBUG = False
 
 ALLOWED_HOSTS = []
 
