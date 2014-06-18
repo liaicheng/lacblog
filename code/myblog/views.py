@@ -82,7 +82,9 @@ def blog_show(request, id=''):
         },
     )
 
-
+def blog_show_comment(request, id=''):
+    blog = BlogPost.objects.get(id=id)
+    return render('blog_comments_show.html', {"blog": blog})
 
 def RSS_url(request):
     return HttpResponse('haoba')

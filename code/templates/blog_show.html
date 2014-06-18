@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% block title %}CJYFFF的简单BLOG:{{ post.title }}{% endblock %}
+{% block title %}LAC的简单BLOG:{{ post.title }}{% endblock %}
 
 {% block body %}
 {% load comments %}
@@ -73,7 +73,8 @@
 			    </div>
 
 			    <table>
-                    <form id="comment_from" action="{% comment_form_target %}" method="post">
+                    {% get_comment_form for blog as form %}
+                    <form id="comment_from" action="{{  comment_form_target }}" method="post">
 				      {% csrf_token %}
 				      {{form.object_pk}}
 				      {{form.content_type}}

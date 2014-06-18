@@ -29,7 +29,7 @@
       <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myblog1/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="21" selection-start="832" selection-end="832" vertical-scroll-proportion="0.0" vertical-offset="99" max-vertical-offset="1995">
+            <state line="43" column="30" selection-start="1116" selection-end="1116" vertical-scroll-proportion="0.0" vertical-offset="498" max-vertical-offset="1995">
               <folding />
             </state>
           </provider>
@@ -47,10 +47,8 @@
       <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myblog1/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="599" selection-end="599" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="475">
-              <folding>
-                <element signature="e#0#51#0" expanded="true" />
-              </folding>
+            <state line="20" column="0" selection-start="680" selection-end="680" vertical-scroll-proportion="0.0" vertical-offset="380" max-vertical-offset="494">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -58,7 +56,16 @@
       <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myblog/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="41" selection-start="1005" selection-end="1005" vertical-scroll-proportion="0.0" vertical-offset="171" max-vertical-offset="1615">
+            <state line="86" column="60" selection-start="2675" selection-end="2675" vertical-scroll-proportion="0.0" vertical-offset="1634" max-vertical-offset="1805">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blog_comments_show.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/blog_comments_show.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="29" selection-start="459" selection-end="459" vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="532">
               <folding />
             </state>
           </provider>
@@ -67,8 +74,19 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="20" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="1045">
-              <folding />
+            <state line="1" column="20" selection-start="46" selection-end="46" vertical-scroll-proportion="-0.6785714" vertical-offset="0" max-vertical-offset="1045">
+              <folding>
+                <marker date="1402499411398" expanded="true" signature="108:1653" placeholder="..." />
+                <marker date="1402499411398" expanded="true" signature="147:1646" placeholder="..." />
+                <marker date="1402499411398" expanded="true" signature="176:1288" placeholder="..." />
+                <marker date="1402499411398" expanded="true" signature="479:620" placeholder="..." />
+                <marker date="1402499411398" expanded="true" signature="788:1279" placeholder="..." />
+                <marker date="1402499411398" expanded="true" signature="821:1266" placeholder="..." />
+                <marker date="1402499411398" expanded="true" signature="999:1113" placeholder="..." />
+                <marker date="1402499411398" expanded="true" signature="1318:1638" placeholder="..." />
+                <marker date="1402499411398" expanded="true" signature="1355:1629" placeholder="..." />
+                <marker date="1402499411398" expanded="true" signature="1374:1614" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -76,7 +94,7 @@
       <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="38" selection-start="800" selection-end="800" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="1596">
+            <state line="59" column="22" selection-start="1823" selection-end="1823" vertical-scroll-proportion="-17.178572" vertical-offset="640" max-vertical-offset="1596">
               <folding />
             </state>
           </provider>
@@ -85,7 +103,18 @@
       <file leaf-file-name="blog_show.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/blog_show.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="77" column="40" selection-start="2276" selection-end="2276" vertical-scroll-proportion="0.31088084" vertical-offset="1283" max-vertical-offset="2261">
+            <state line="93" column="23" selection-start="3097" selection-end="3097" vertical-scroll-proportion="0.92100537" vertical-offset="1254" max-vertical-offset="2280">
+              <folding>
+                <element signature="n#style#0;n#input#3;n#form#0;n#table#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myblog/admin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="0" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="171">
               <folding />
             </state>
           </provider>
@@ -94,7 +123,7 @@
       <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/comments/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="69" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0" vertical-offset="114" max-vertical-offset="627">
+            <state line="6" column="69" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0" vertical-offset="70" max-vertical-offset="627">
               <folding />
             </state>
           </provider>
@@ -113,12 +142,12 @@
         <option value="$PROJECT_DIR$/manage.py" />
         <option value="$PROJECT_DIR$/myblog/models.py" />
         <option value="$PROJECT_DIR$/myblog/tests.py" />
-        <option value="$PROJECT_DIR$/myblog/views.py" />
         <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/myblog1/settings.py" />
+        <option value="$PROJECT_DIR$/myblog1/urls.py" />
+        <option value="$PROJECT_DIR$/myblog/views.py" />
         <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/templates/blog_show.html" />
-        <option value="$PROJECT_DIR$/myblog1/urls.py" />
-        <option value="$PROJECT_DIR$/myblog1/settings.py" />
       </list>
     </option>
   </component>
@@ -215,6 +244,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myblog1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="myblog1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -245,6 +288,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\python\workspace\lacblog\code\templates" />
       <recent name="D:\python\workspace\myblog1\templates" />
       <recent name="D:\python\workspace\myblog1" />
     </key>
@@ -356,7 +400,27 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="myblog1" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
@@ -382,27 +446,7 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="myblog1" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <option name="port" value="8000" />
-      <option name="host" value="" />
-      <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="" />
-      <option name="runTestServer" value="false" />
-      <option name="runNoReload" value="false" />
-      <option name="useCustomRunCommand" value="false" />
-      <option name="customRunCommand" value="" />
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -528,34 +572,35 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/myblog/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="17" selection-start="1451" selection-end="1451" vertical-scroll-proportion="0.0" vertical-offset="836" max-vertical-offset="1767">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/my_blog.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2356">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="53" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0" vertical-offset="171" max-vertical-offset="1045">
-          <folding />
+          <folding>
+            <marker date="1402499411398" expanded="true" signature="108:1653" placeholder="..." />
+            <marker date="1402499411398" expanded="true" signature="147:1646" placeholder="..." />
+            <marker date="1402499411398" expanded="true" signature="176:1288" placeholder="..." />
+            <marker date="1402499411398" expanded="true" signature="479:620" placeholder="..." />
+            <marker date="1402499411398" expanded="true" signature="788:1279" placeholder="..." />
+            <marker date="1402499411398" expanded="true" signature="821:1266" placeholder="..." />
+            <marker date="1402499411398" expanded="true" signature="999:1113" placeholder="..." />
+            <marker date="1402499411398" expanded="true" signature="1318:1638" placeholder="..." />
+            <marker date="1402499411398" expanded="true" signature="1355:1629" placeholder="..." />
+            <marker date="1402499411398" expanded="true" signature="1374:1614" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/blog_show.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="58" column="59" selection-start="1734" selection-end="1734" vertical-scroll-proportion="0.0" vertical-offset="855" max-vertical-offset="2242">
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#input#3;n#form#0;n#table#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -583,9 +628,7 @@
     <entry file="file://$PROJECT_DIR$/myblog1/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="0" selection-start="482" selection-end="482" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="437">
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -598,22 +641,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/js/my_blog.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2356">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2356" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="53" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0" vertical-offset="171" max-vertical-offset="1045">
-          <folding />
+          <folding>
+            <marker date="1402499411398" expanded="true" signature="108:1653" placeholder="..." />
+            <marker date="1402499411398" expanded="true" signature="147:1646" placeholder="..." />
+            <marker date="1402499411398" expanded="true" signature="176:1288" placeholder="..." />
+            <marker date="1402499411398" expanded="true" signature="479:620" placeholder="..." />
+            <marker date="1402499411398" expanded="true" signature="788:1279" placeholder="..." />
+            <marker date="1402499411398" expanded="true" signature="821:1266" placeholder="..." />
+            <marker date="1402499411398" expanded="true" signature="999:1113" placeholder="..." />
+            <marker date="1402499411398" expanded="true" signature="1318:1638" placeholder="..." />
+            <marker date="1402499411398" expanded="true" signature="1355:1629" placeholder="..." />
+            <marker date="1402499411398" expanded="true" signature="1374:1614" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/blog_show.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="112" column="0" selection-start="3570" selection-end="3570" vertical-scroll-proportion="0.0" vertical-offset="2128" max-vertical-offset="2242">
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#input#3;n#form#0;n#table#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -634,9 +688,7 @@
     <entry file="file://$PROJECT_DIR$/myblog1/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="0" selection-start="482" selection-end="482" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="437">
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -649,15 +701,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/js/my_blog.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2356">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2356" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="44" selection-start="1089" selection-end="1089" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="1045">
-          <folding />
+          <folding>
+            <marker date="1402499411398" expanded="true" signature="108:1653" placeholder="..." />
+            <marker date="1402499411398" expanded="true" signature="147:1646" placeholder="..." />
+            <marker date="1402499411398" expanded="true" signature="176:1288" placeholder="..." />
+            <marker date="1402499411398" expanded="true" signature="479:620" placeholder="..." />
+            <marker date="1402499411398" expanded="true" signature="788:1279" placeholder="..." />
+            <marker date="1402499411398" expanded="true" signature="821:1266" placeholder="..." />
+            <marker date="1402499411398" expanded="true" signature="999:1113" placeholder="..." />
+            <marker date="1402499411398" expanded="true" signature="1318:1638" placeholder="..." />
+            <marker date="1402499411398" expanded="true" signature="1355:1629" placeholder="..." />
+            <marker date="1402499411398" expanded="true" signature="1374:1614" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -678,9 +739,7 @@
     <entry file="file://$PROJECT_DIR$/myblog1/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="0" selection-start="482" selection-end="482" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="437">
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -700,15 +759,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/js/my_blog.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2356">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2356" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="21" selection-start="1254" selection-end="1254" vertical-scroll-proportion="0.0" vertical-offset="608" max-vertical-offset="1045">
-          <folding />
+          <folding>
+            <marker date="1402499411398" expanded="true" signature="108:1653" placeholder="..." />
+            <marker date="1402499411398" expanded="true" signature="147:1646" placeholder="..." />
+            <marker date="1402499411398" expanded="true" signature="176:1288" placeholder="..." />
+            <marker date="1402499411398" expanded="true" signature="479:620" placeholder="..." />
+            <marker date="1402499411398" expanded="true" signature="788:1279" placeholder="..." />
+            <marker date="1402499411398" expanded="true" signature="821:1266" placeholder="..." />
+            <marker date="1402499411398" expanded="true" signature="999:1113" placeholder="..." />
+            <marker date="1402499411398" expanded="true" signature="1318:1638" placeholder="..." />
+            <marker date="1402499411398" expanded="true" signature="1355:1629" placeholder="..." />
+            <marker date="1402499411398" expanded="true" signature="1374:1614" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -739,9 +807,7 @@
     <entry file="file://$PROJECT_DIR$/myblog1/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="41" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="437">
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -761,15 +827,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/js/my_blog.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2356">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2356" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="25" selection-start="25" selection-end="25" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1045">
-          <folding />
+          <folding>
+            <marker date="1402499411398" expanded="true" signature="108:1653" placeholder="..." />
+            <marker date="1402499411398" expanded="true" signature="147:1646" placeholder="..." />
+            <marker date="1402499411398" expanded="true" signature="176:1288" placeholder="..." />
+            <marker date="1402499411398" expanded="true" signature="479:620" placeholder="..." />
+            <marker date="1402499411398" expanded="true" signature="788:1279" placeholder="..." />
+            <marker date="1402499411398" expanded="true" signature="821:1266" placeholder="..." />
+            <marker date="1402499411398" expanded="true" signature="999:1113" placeholder="..." />
+            <marker date="1402499411398" expanded="true" signature="1318:1638" placeholder="..." />
+            <marker date="1402499411398" expanded="true" signature="1355:1629" placeholder="..." />
+            <marker date="1402499411398" expanded="true" signature="1374:1614" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -788,9 +863,7 @@
     <entry file="file://$PROJECT_DIR$/myblog1/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="25" selection-start="321" selection-end="321" vertical-scroll-proportion="0.0" vertical-offset="209" max-vertical-offset="361">
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -826,61 +899,84 @@
         <state line="137" column="16" selection-start="3470" selection-end="3470" vertical-scroll-proportion="1.8039539" vertical-offset="1508" max-vertical-offset="9196" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/static/js/my_blog.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="20" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="1045">
+        <state line="24" column="42" selection-start="555" selection-end="555" vertical-scroll-proportion="-1.3641026" vertical-offset="1254" max-vertical-offset="2356" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myblog/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="171">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myblog1/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="30" selection-start="1116" selection-end="1116" vertical-scroll-proportion="0.0" vertical-offset="498" max-vertical-offset="1995">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/comments/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="69" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0" vertical-offset="114" max-vertical-offset="627">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="38" selection-start="800" selection-end="800" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="1596">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myblog1/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="599" selection-end="599" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="475">
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myblog1/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="21" selection-start="832" selection-end="832" vertical-scroll-proportion="0.0" vertical-offset="99" max-vertical-offset="1995">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/my_blog.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="42" selection-start="555" selection-end="555" vertical-scroll-proportion="-1.3641026" vertical-offset="1254" max-vertical-offset="2356">
+        <state line="6" column="69" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0" vertical-offset="70" max-vertical-offset="627">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myblog/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="41" selection-start="1005" selection-end="1005" vertical-scroll-proportion="0.0" vertical-offset="171" max-vertical-offset="1615">
+        <state line="86" column="60" selection-start="2675" selection-end="2675" vertical-scroll-proportion="0.0" vertical-offset="1068" max-vertical-offset="1653">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/blog_comments_show.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="29" selection-start="459" selection-end="459" vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="532">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myblog1/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="680" selection-end="680" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="418">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="20" selection-start="46" selection-end="46" vertical-scroll-proportion="-0.6785714" vertical-offset="0" max-vertical-offset="1045">
+          <folding>
+            <marker date="1402499411398" expanded="true" signature="108:1653" placeholder="..." />
+            <marker date="1402499411398" expanded="true" signature="147:1646" placeholder="..." />
+            <marker date="1402499411398" expanded="true" signature="176:1288" placeholder="..." />
+            <marker date="1402499411398" expanded="true" signature="479:620" placeholder="..." />
+            <marker date="1402499411398" expanded="true" signature="788:1279" placeholder="..." />
+            <marker date="1402499411398" expanded="true" signature="821:1266" placeholder="..." />
+            <marker date="1402499411398" expanded="true" signature="999:1113" placeholder="..." />
+            <marker date="1402499411398" expanded="true" signature="1318:1638" placeholder="..." />
+            <marker date="1402499411398" expanded="true" signature="1355:1629" placeholder="..." />
+            <marker date="1402499411398" expanded="true" signature="1374:1614" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="22" selection-start="1823" selection-end="1823" vertical-scroll-proportion="-17.178572" vertical-offset="640" max-vertical-offset="1596">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/blog_show.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="40" selection-start="2276" selection-end="2276" vertical-scroll-proportion="0.31088084" vertical-offset="1283" max-vertical-offset="2261">
-          <folding />
+        <state line="93" column="23" selection-start="3097" selection-end="3097" vertical-scroll-proportion="0.92100537" vertical-offset="1254" max-vertical-offset="2280">
+          <folding>
+            <element signature="n#style#0;n#input#3;n#form#0;n#table#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
