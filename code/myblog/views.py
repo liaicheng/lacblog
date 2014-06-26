@@ -1,14 +1,15 @@
 __author__ = 'lac'
 import datetime
 from django.http import HttpResponse,Http404
-from django.shortcuts import render
+from django.shortcuts import render,render_to_response
 from myblog.models import  BlogPost
 from django.http import Http404, HttpResponseRedirect
 from django.views.decorators.cache import cache_page
 from django.views.decorators.cache import cache_control
 from django.views.decorators.cache import never_cache
 from django.contrib.syndication.views import Feed
-
+from django.views.decorators.csrf import csrf_exempt
+import time
 
 @cache_page(60 * 15)
 @cache_control(public=True, must_revalidate=True, max_age=1200)
@@ -88,3 +89,19 @@ def blog_show_comment(request, id=''):
 
 def RSS_url(request):
     return HttpResponse('haoba')
+
+def add_blog(reqeuset):
+    return render_to_response('add_blog.html',locals())
+
+@csrf_exempt
+def add_blog_action(request):
+    if 'title' in request.POST and 'para' in request.POST:
+        title = request.POST['title']
+        summary = request.POST['para']
+        if 'tags' in request.POST:
+            tag = request.POST['tags']
+        blognew = BlogPost(title =title,author='lac',summary=summary,timestamp=time.strftime('%Y-%m-%d',time.localtime(time.time())))
+        blognew.save()
+        return render_to_response("errors.html",{"message":"success"})
+    else:
+       return render_to_response('add_blog.html',{"message": "请输入内容"})

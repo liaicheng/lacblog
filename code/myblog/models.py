@@ -32,7 +32,7 @@ class BlogPost(models.Model):
 
 class Paragraph(models.Model):
     discern = "paragraph"
-    describe = models.CharField(max_length=100)
+    describe = models.CharField(max_length=1000)
     sequence = models.PositiveSmallIntegerField()
     tag = models.ManyToManyField(BlogPost)
     paragraph = models.TextField()

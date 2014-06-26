@@ -16,5 +16,7 @@ urlpatterns = patterns('',
     url(r'^blog/(?P<id>\d+)/$', views.blog_show, name='detail_blog'),
     url(r'^index',views.index_page,name='RSS_url'),
     url(r'^(?P<id>\d+)/commentshow/$', 'blog_show_comment', name='showcomment'),
+    url(r'^addblog/',views.add_blog,name='add_blog'),
+    url(r'^addblogact/',views.add_blog_action,name='add_blog'),
 
 )

@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %}Add New Blog{% endblock %}
+
+{% block body %}
+    {{ message }}
+    <form action="/addblogact/" method="POST">
+     {% csrf_token %}
+        <p>标题</p>
+        <input type="text" name="title">
+        <input type="text" name="para">
+        <input type="text" name="tags">
+        <input type="submit" value="add">
+    </form>
+{% endblock %}
