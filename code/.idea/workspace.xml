@@ -29,56 +29,34 @@
       <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myblog1/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="48" selection-start="1342" selection-end="1342" vertical-scroll-proportion="0.0" vertical-offset="570" max-vertical-offset="1995">
+            <state line="49" column="21" selection-start="1202" selection-end="1202" vertical-scroll-proportion="0.0" vertical-offset="631" max-vertical-offset="2014">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myblog/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="0" selection-start="788" selection-end="788" vertical-scroll-proportion="0.87644154" vertical-offset="0" max-vertical-offset="1330">
+            <state line="45" column="30" selection-start="1254" selection-end="1254" vertical-scroll-proportion="0.0" vertical-offset="438" max-vertical-offset="1330">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="blog_show.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/blog_show.html">
+      <file leaf-file-name="forms.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myblog/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="10" selection-start="3" selection-end="10" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="2280">
-              <folding>
-                <marker date="1403105570025" expanded="true" signature="145:3531" placeholder="..." />
-                <marker date="1403105570025" expanded="true" signature="184:3524" placeholder="..." />
-                <marker date="1403105570025" expanded="true" signature="213:3172" placeholder="..." />
-                <marker date="1403105570025" expanded="true" signature="505:918" placeholder="..." />
-                <marker date="1403105570025" expanded="true" signature="960:1033" placeholder="..." />
-                <marker date="1403105570025" expanded="true" signature="969:1023" placeholder="..." />
-                <marker date="1403105570025" expanded="true" signature="1053:1205" placeholder="..." />
-                <marker date="1403105570025" expanded="true" signature="1212:1418" placeholder="..." />
-                <marker date="1403105570025" expanded="true" signature="1684:1853" placeholder="..." />
-                <marker date="1403105570025" expanded="true" signature="1977:3154" placeholder="..." />
-                <marker date="1403105570025" expanded="true" signature="2002:3144" placeholder="..." />
-                <marker date="1403105570025" expanded="true" signature="2035:2106" placeholder="..." />
-                <marker date="1403105570025" expanded="true" signature="2122:3132" placeholder="..." />
-                <marker date="1403105570025" expanded="true" signature="2277:3116" placeholder="..." />
-                <marker date="1403105570025" expanded="true" signature="2874:2886" placeholder="..." />
-                <marker date="1403105570025" expanded="true" signature="2940:3100" placeholder="..." />
-                <marker date="1403105570025" expanded="true" signature="2969:3084" placeholder="..." />
-                <marker date="1403105570025" expanded="true" signature="3203:3516" placeholder="..." />
-                <marker date="1403105570025" expanded="true" signature="3240:3505" placeholder="..." />
-                <marker date="1403105570025" expanded="true" signature="3298:3377" placeholder="..." />
-                <marker date="1403105570025" expanded="true" signature="3301:3373" placeholder="..." />
-              </folding>
+            <state line="13" column="18" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0" vertical-offset="247" max-vertical-offset="361">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="add_blog.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/add_blog.html">
+      <file leaf-file-name="blog_show.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/blog_show.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="21" selection-start="174" selection-end="174" vertical-scroll-proportion="-4.071429" vertical-offset="0" max-vertical-offset="361">
+            <state line="36" column="18" selection-start="1109" selection-end="1109" vertical-scroll-proportion="0.3752244" vertical-offset="475" max-vertical-offset="2223">
               <folding />
             </state>
           </provider>
@@ -87,10 +65,17 @@
       <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myblog/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="101" column="32" selection-start="3143" selection-end="3143" vertical-scroll-proportion="0.0" vertical-offset="1540" max-vertical-offset="2147">
-              <folding>
-                <element signature="e#19#34#0" expanded="true" />
-              </folding>
+            <state line="86" column="0" selection-start="2705" selection-end="2705" vertical-scroll-proportion="0.0" vertical-offset="704" max-vertical-offset="1995">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="40" column="14" selection-start="1467" selection-end="1467" vertical-scroll-proportion="-21.035715" vertical-offset="171" max-vertical-offset="1045">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -104,13 +89,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="text_markup.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/text_markup/templatetags/text_markup.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="0" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="342">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myblog1/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="45" selection-start="761" selection-end="776" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="532">
-              <folding>
-                <element signature="e#0#51#0" expanded="true" />
-              </folding>
+            <state line="22" column="0" selection-start="798" selection-end="798" vertical-scroll-proportion="0.0" vertical-offset="418" max-vertical-offset="532">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -118,9 +110,9 @@
       <file leaf-file-name="admin.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myblog/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="19" selection-start="118" selection-end="131" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="342">
+            <state line="20" column="0" selection-start="591" selection-end="591" vertical-scroll-proportion="0.0" vertical-offset="380" max-vertical-offset="532">
               <folding>
-                <element signature="e#0#32#0" expanded="true" />
+                <marker date="1404807242474" expanded="true" signature="325:358" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -138,17 +130,19 @@
       <list>
         <option value="$PROJECT_DIR$/manage.py" />
         <option value="$PROJECT_DIR$/myblog/tests.py" />
-        <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/templates/base.html" />
-        <option value="$PROJECT_DIR$/templates/blog_show.html" />
         <option value="$PROJECT_DIR$/myblog/models.py" />
         <option value="$PROJECT_DIR$/templates/404.html" />
-        <option value="$PROJECT_DIR$/myblog/admin.py" />
         <option value="$PROJECT_DIR$/myblog1/urls.py" />
         <option value="$PROJECT_DIR$/templates/errors.html" />
+        <option value="$PROJECT_DIR$/templates/blog_base.html" />
         <option value="$PROJECT_DIR$/templates/add_blog.html" />
+        <option value="$PROJECT_DIR$/myblog/forms.py" />
         <option value="$PROJECT_DIR$/myblog1/settings.py" />
         <option value="$PROJECT_DIR$/myblog/views.py" />
+        <option value="$PROJECT_DIR$/myblog/admin.py" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/templates/blog_show.html" />
       </list>
     </option>
   </component>
@@ -200,6 +194,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myblog1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="text_markup" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -282,7 +290,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../sblog" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
@@ -290,6 +298,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\python\workspace\lacblog\code\text_markup" />
       <recent name="D:\python\workspace\lacblog\code\templates" />
       <recent name="D:\python\workspace\myblog1\templates" />
       <recent name="D:\python\workspace\myblog1" />
@@ -541,16 +550,16 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.0977918" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39589906" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -590,28 +599,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/static/js/my_blog.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2356" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="53" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0" vertical-offset="171" max-vertical-offset="1045" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/blog_show.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="112" column="0" selection-start="3570" selection-end="3570" vertical-scroll-proportion="0.0" vertical-offset="2128" max-vertical-offset="2242" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myblog1/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="11" selection-start="1081" selection-end="1081" vertical-scroll-proportion="0.0" vertical-offset="381" max-vertical-offset="1919">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myblog/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="31" selection-start="666" selection-end="666" vertical-scroll-proportion="0.0" vertical-offset="475" max-vertical-offset="1330">
@@ -622,9 +609,7 @@
     <entry file="file://$PROJECT_DIR$/myblog1/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="0" selection-start="482" selection-end="482" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="437">
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -660,9 +645,7 @@
     <entry file="file://$PROJECT_DIR$/myblog1/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="0" selection-start="482" selection-end="482" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="437">
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -713,9 +696,7 @@
     <entry file="file://$PROJECT_DIR$/myblog1/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="41" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="437">
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -754,9 +735,7 @@
     <entry file="file://$PROJECT_DIR$/myblog1/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="25" selection-start="321" selection-end="321" vertical-scroll-proportion="0.0" vertical-offset="209" max-vertical-offset="361">
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -795,11 +774,6 @@
         <state line="12" column="29" selection-start="459" selection-end="459" vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="532" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="20" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0" vertical-offset="19" max-vertical-offset="1045" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="59" column="22" selection-start="1823" selection-end="1823" vertical-scroll-proportion="0.0" vertical-offset="640" max-vertical-offset="1596" />
@@ -807,9 +781,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/comments/preview.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="24" selection-start="286" selection-end="286" vertical-scroll-proportion="0.3070018" vertical-offset="0" max-vertical-offset="1026">
-          <folding />
-        </state>
+        <state line="9" column="24" selection-start="286" selection-end="286" vertical-scroll-proportion="0.3070018" vertical-offset="0" max-vertical-offset="1026" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/comments/list.html">
@@ -824,51 +796,93 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/comments/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="69" selection-start="261" selection-end="261" vertical-scroll-proportion="0.19689119" vertical-offset="0" max-vertical-offset="627">
-          <folding />
-        </state>
+        <state line="6" column="69" selection-start="261" selection-end="261" vertical-scroll-proportion="0.19689119" vertical-offset="0" max-vertical-offset="627" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/comments/400-debug.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="36" selection-start="1714" selection-end="1714" vertical-scroll-proportion="-12.535714" vertical-offset="580" max-vertical-offset="1159">
-          <folding />
-        </state>
+        <state line="49" column="36" selection-start="1714" selection-end="1714" vertical-scroll-proportion="-12.535714" vertical-offset="580" max-vertical-offset="1159" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/404.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="56" selection-start="175" selection-end="175" vertical-scroll-proportion="-4.75" vertical-offset="0" max-vertical-offset="266">
+        <state line="7" column="56" selection-start="175" selection-end="175" vertical-scroll-proportion="-4.75" vertical-offset="0" max-vertical-offset="266" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myblog1/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="798" selection-end="798" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="456">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/blog_show.html">
+    <entry file="file://$PROJECT_DIR$/myblog/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="10" selection-start="3" selection-end="10" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="2280">
+        <state line="13" column="18" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="361">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text_markup/templatetags/text_markup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="342">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/blog_base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="12" selection-start="12" selection-end="12" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="2717">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/add_blog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="49" selection-start="838" selection-end="838" vertical-scroll-proportion="0.9080882" vertical-offset="114" max-vertical-offset="2755">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text_markup/templatetags/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myblog/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="591" selection-end="591" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="532">
           <folding>
-            <marker date="1403105570025" expanded="true" signature="145:3531" placeholder="..." />
-            <marker date="1403105570025" expanded="true" signature="184:3524" placeholder="..." />
-            <marker date="1403105570025" expanded="true" signature="213:3172" placeholder="..." />
-            <marker date="1403105570025" expanded="true" signature="505:918" placeholder="..." />
-            <marker date="1403105570025" expanded="true" signature="960:1033" placeholder="..." />
-            <marker date="1403105570025" expanded="true" signature="969:1023" placeholder="..." />
-            <marker date="1403105570025" expanded="true" signature="1053:1205" placeholder="..." />
-            <marker date="1403105570025" expanded="true" signature="1212:1418" placeholder="..." />
-            <marker date="1403105570025" expanded="true" signature="1684:1853" placeholder="..." />
-            <marker date="1403105570025" expanded="true" signature="1977:3154" placeholder="..." />
-            <marker date="1403105570025" expanded="true" signature="2002:3144" placeholder="..." />
-            <marker date="1403105570025" expanded="true" signature="2035:2106" placeholder="..." />
-            <marker date="1403105570025" expanded="true" signature="2122:3132" placeholder="..." />
-            <marker date="1403105570025" expanded="true" signature="2277:3116" placeholder="..." />
-            <marker date="1403105570025" expanded="true" signature="2874:2886" placeholder="..." />
-            <marker date="1403105570025" expanded="true" signature="2940:3100" placeholder="..." />
-            <marker date="1403105570025" expanded="true" signature="2969:3084" placeholder="..." />
-            <marker date="1403105570025" expanded="true" signature="3203:3516" placeholder="..." />
-            <marker date="1403105570025" expanded="true" signature="3240:3505" placeholder="..." />
-            <marker date="1403105570025" expanded="true" signature="3298:3377" placeholder="..." />
-            <marker date="1403105570025" expanded="true" signature="3301:3373" placeholder="..." />
+            <marker date="1404807242474" expanded="true" signature="325:358" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myblog/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="30" selection-start="1254" selection-end="1254" vertical-scroll-proportion="0.0" vertical-offset="438" max-vertical-offset="1330">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myblog1/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="21" selection-start="1202" selection-end="1202" vertical-scroll-proportion="0.0" vertical-offset="631" max-vertical-offset="2014">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myblog/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="86" column="0" selection-start="2705" selection-end="2705" vertical-scroll-proportion="0.0" vertical-offset="704" max-vertical-offset="1995">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="14" selection-start="1467" selection-end="1467" vertical-scroll-proportion="-21.035715" vertical-offset="171" max-vertical-offset="1045">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -879,50 +893,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myblog1/urls.py">
+    <entry file="file://$PROJECT_DIR$/templates/blog_show.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="45" selection-start="761" selection-end="776" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="532">
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myblog1/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="48" selection-start="1342" selection-end="1342" vertical-scroll-proportion="0.0" vertical-offset="570" max-vertical-offset="1995">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myblog/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="19" selection-start="118" selection-end="131" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="342">
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myblog/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="101" column="32" selection-start="3143" selection-end="3143" vertical-scroll-proportion="0.0" vertical-offset="1540" max-vertical-offset="2147">
-          <folding>
-            <element signature="e#19#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/add_blog.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="21" selection-start="174" selection-end="174" vertical-scroll-proportion="-4.071429" vertical-offset="0" max-vertical-offset="361">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myblog/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="788" selection-end="788" vertical-scroll-proportion="0.87644154" vertical-offset="0" max-vertical-offset="1330">
+        <state line="36" column="18" selection-start="1109" selection-end="1109" vertical-scroll-proportion="0.3752244" vertical-offset="475" max-vertical-offset="2223">
           <folding />
         </state>
       </provider>

@@ -2,6 +2,7 @@ __author__ = 'lac'
 import datetime
 from django.http import HttpResponse,Http404
 from django.shortcuts import render,render_to_response
+from django.template import RequestContext
 from myblog.models import  BlogPost
 from django.http import Http404, HttpResponseRedirect
 from django.views.decorators.cache import cache_page
@@ -9,6 +10,7 @@ from django.views.decorators.cache import cache_control
 from django.views.decorators.cache import never_cache
 from django.contrib.syndication.views import Feed
 from django.views.decorators.csrf import csrf_exempt
+from myblog.forms import  BlogForm,TagForm
 import time
 
 @cache_page(60 * 15)
@@ -90,8 +92,10 @@ def blog_show_comment(request, id=''):
 def RSS_url(request):
     return HttpResponse('haoba')
 
-def add_blog(reqeuset):
-    return render_to_response('add_blog.html',locals())
+def add_blog(request):
+    form = BlogForm()
+    tag = TagForm()
+    return render_to_response('blog_add.html')
 
 @csrf_exempt
 def add_blog_action(request):
